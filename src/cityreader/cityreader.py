@@ -81,7 +81,7 @@ lat2 = float(input('Please enter the second latitude coordinate.'))
 lon2 = float(input('Please enter the second longitude coordinate.'))
 
 
-def cityreader_stretch(lat1, lon1, lat2, lon2, cities):
+def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
     within = []
     if lat1 > lat2:
         normalized_lat1 = lat2
